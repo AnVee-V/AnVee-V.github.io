@@ -1,0 +1,55 @@
+html, head, body {
+    margin: 0 auto;
+    border: 0;
+    padding: 0px;
+    outline: 0;
+    font-family: Neuton;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 13;
+    background-color: seaGreen;
+    color:  aliceblue;
+    border-bottom-style: solid;
+    border-bottom: 1%;
+    border-bottom-color: teal;
+    
+    ul {
+        text-align: center;
+        
+        li {
+            font-size: 16px;
+            list-style-type: none;
+            align-content: center;
+            display: inline-block;
+            padding: 1.5% 4.5%;
+            
+            a, a:visited {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+        li:hover {
+            background: darkcyan;
+        }
+    }
+}
+
+main {
+    padding: 9%;
+}
+
+h2 {
+    font-family: Nova Round;
+}
+
+#welcome, #released, #wip, #archived, #about {
+    scroll-margin-top: 100px;
+}
+
+#btn {
+    
+}
